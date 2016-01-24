@@ -1,0 +1,7 @@
+tint2 &
+nitrogen --restore &
+rofi -key-run Control+space &
+nm-applet &
+#cbatticon -i symbolic &
+pnmixer &
+xautolock -time 8 -locker lock &

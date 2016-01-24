@@ -1,0 +1,41 @@
+2016-01-10 17:09:54	-->	_inc (~inc@unaffiliated/-inc/x-0498339) has joined #archlinux
+2016-01-10 17:09:54	--	Topic for #archlinux is "Welcome to Arch Linux World Domination, Inc. <+> Be kind to the people who are helping you. Be kind to the people you are trying to help. <+> FOSDEM 2016 participation <https://ptpb.pw/pQP3> <+> Freenode is getting DDoS'd bear with us"
+2016-01-10 17:09:54	--	Topic set by jelle (~jelle@archlinux/trusteduser/jelly1) on Fri, 27 Nov 2015 17:41:49
+2016-01-10 17:09:54	--	Channel #archlinux: 1650 nicks (2 ops, 0 voices, 1648 normals)
+2016-01-10 17:09:55	TheAnachron	Cirrus_Minor: I am just getting started with mpd ...
+2016-01-10 17:09:56	--	Channel created on Sun, 15 Feb 2004 05:08:31
+2016-01-10 17:09:56	<--	marcecoll (~marcecoll@2.Red-79-155-140.dynamicIP.rima-tde.net) has quit (Remote host closed the connection)
+2016-01-10 17:10:00	thrice	SolarAquarion: sorry, I have NO idea then.  I thought you meant it graphically doesn't show up.  the backend login should be the same as when you login with TTY, so I don't know what fails in between :(
+2016-01-10 17:10:11	Cirrus_Minor	see pid1 's conf and mine see what u need in there, you want the http stuff TheAnachron 
+2016-01-10 17:11:01	-->	masteroman (~masteroma@93-139-155-229.adsl.net.t-com.hr) has joined #archlinux
+2016-01-10 17:11:16	-->	SysGhost (~sysghost@217.21.233.253) has joined #archlinux
+2016-01-10 17:11:18	archer121	hello,i just reinserted my hard drive and now i cant boot.Usually when i do this i had to reinstall grub,but this time when i tried to mount the boot partition,i'm getting a couple of blk
+2016-01-10 17:11:56	TheAnachron	Cirrus_Minor: but his config is even less than what I configured?
+2016-01-10 17:12:01	<--	muchweb (~muchweb@84.201.235.67) has quit (Ping timeout: 276 seconds)
+2016-01-10 17:12:09	Cirrus_Minor	TheAnachron:  but it works ?
+2016-01-10 17:12:13	archer121	*blk_update_request: i/o error and SQUASHFS error: unable to read page/data
+2016-01-10 17:12:50	<--	lumidee (~esing@unaffiliated/esing) has left #archlinux ("Leaving")
+2016-01-10 17:12:50	TheAnachron	Cirrus_Minor: o_O I have an issue with AUDIO to turn it loader or less silent, everything else works
+2016-01-10 17:12:56	pid1	TheAnachron: Use Pulse.
+2016-01-10 17:12:56	-->	flux242 (~chatzilla@82.113.99.237) has joined #archlinux
+2016-01-10 17:12:56	pid1	!next
+2016-01-10 17:12:58	phrik	Another satisfied customer! NEXT!
+2016-01-10 17:12:59	TheAnachron	Cirrus_Minor: he probably has his alsa configured differtly or something like that :X
+2016-01-10 17:13:02	-->	JohnDoe42 (~frederik@213.240.182.18) has joined #archlinux
+2016-01-10 17:13:04	TheAnachron	pid1: pulse? never. Ever.
+2016-01-10 17:13:05	Namarrgon	archer121: you are probably mounting the wrong partition
+2016-01-10 17:13:08	<--	fpibb (~ace@d4-50-103-103.nap.wideopenwest.com) has quit (Quit: WeeChat 1.3)
+2016-01-10 17:13:08	<--	bithon (~bithon@unaffiliated/bithon) has quit (Ping timeout: 255 seconds)
+2016-01-10 17:13:16	pid1	TheAnachron: Do you actually have a reason for that, beyond "muh potteringware?"
+2016-01-10 17:13:18	-->	Wompatti (~wompatti@217-119-47-47.cust.suomicom.net) has joined #archlinux
+2016-01-10 17:13:42	-->	monah1744 (~inovikov@77.122.103.85) has joined #archlinux
+2016-01-10 17:13:45	TheAnachron	pid1: yeah, alsa sounds better ;D
+2016-01-10 17:13:47	archer121	Namarrgon: But something defenitely is wrong, like I get a segfault when I do lsbl.
+2016-01-10 17:13:51	archer121	*lsblk
+2016-01-10 17:13:51	teraflops	TheAnachron: :S
+2016-01-10 17:13:59	TheAnachron	pid1: actually I just put pulse and restarted mpd, same issue
+2016-01-10 17:14:05	Namarrgon	archer121: why and how did you "reinsert" it?
+2016-01-10 17:14:06	Cirrus_Minor	i need pulse, i have multiple audio outputs ( and need for hdmi audio)
+2016-01-10 17:14:07	pid1	TheAnachron: That's inane, but http://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/Audiophile/
+2016-01-10 17:14:08	phrik	Title: Audiophile (at www.freedesktop.org)
+2016-01-10 17:14:38	--	irc: disconnected from server

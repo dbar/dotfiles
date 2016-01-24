@@ -1,0 +1,94 @@
+2016-01-10 16:54:17		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-01-10 16:54:32	=!=	You can not write text in this buffer
+2016-01-10 16:54:35	=!=	You can not write text in this buffer
+2016-01-10 16:54:36		[core]
+2016-01-10 16:54:36		  away     filter   plugin   set    
+2016-01-10 16:54:36		  bar      help     print    unset  
+2016-01-10 16:54:36		  buffer   history  proxy    upgrade
+2016-01-10 16:54:36		  color    input    quit     uptime 
+2016-01-10 16:54:36		  command  key      reload   version
+2016-01-10 16:54:36		  cursor   layout   repeat   wait   
+2016-01-10 16:54:36		  debug    mouse    save     window 
+2016-01-10 16:54:36		  eval     mute     secure 
+2016-01-10 16:54:36		[lua]
+2016-01-10 16:54:36		  lua
+2016-01-10 16:54:36		[exec]
+2016-01-10 16:54:36		  exec
+2016-01-10 16:54:36		[tcl]
+2016-01-10 16:54:36		  tcl
+2016-01-10 16:54:36		[xfer]
+2016-01-10 16:54:36		  me  xfer
+2016-01-10 16:54:36		[aspell]
+2016-01-10 16:54:36		  aspell
+2016-01-10 16:54:36		[logger]
+2016-01-10 16:54:36		  logger
+2016-01-10 16:54:36		[irc]
+2016-01-10 16:54:36		  admin       list        sanick    
+2016-01-10 16:54:36		  allchan     lusers      sapart    
+2016-01-10 16:54:36		  allpv       map         saquit    
+2016-01-10 16:54:36		  allserv     me          server    
+2016-01-10 16:54:36		  ban         mode        service   
+2016-01-10 16:54:36		  cap         motd        servlist  
+2016-01-10 16:54:36		  connect     msg         squery    
+2016-01-10 16:54:36		  ctcp        names       squit     
+2016-01-10 16:54:36		  cycle       nick        stats     
+2016-01-10 16:54:36		  dcc         notice      summon    
+2016-01-10 16:54:36		  dehalfop    notify      time      
+2016-01-10 16:54:36		  deop        op          topic     
+2016-01-10 16:54:36		  devoice     oper        trace     
+2016-01-10 16:54:36		  die         part        unban     
+2016-01-10 16:54:36		  disconnect  ping        unquiet   
+2016-01-10 16:54:36		  halfop      pong        userhost  
+2016-01-10 16:54:36		  ignore      query       users     
+2016-01-10 16:54:36		  info        quiet       version   
+2016-01-10 16:54:36		  invite      quote       voice     
+2016-01-10 16:54:36		  ison        reconnect   wallchops 
+2016-01-10 16:54:36		  join        rehash      wallops   
+2016-01-10 16:54:36		  kick        remove      who       
+2016-01-10 16:54:36		  kickban     restart     whois     
+2016-01-10 16:54:36		  kill        sajoin      whowas    
+2016-01-10 16:54:36		  links       samode    
+2016-01-10 16:54:36		[python]
+2016-01-10 16:54:36		  python
+2016-01-10 16:54:36		[relay]
+2016-01-10 16:54:36		  relay
+2016-01-10 16:54:36		[guile]
+2016-01-10 16:54:36		  guile
+2016-01-10 16:54:36		[trigger]
+2016-01-10 16:54:36		  trigger
+2016-01-10 16:54:36		[charset]
+2016-01-10 16:54:36		  charset
+2016-01-10 16:54:36		[ruby]
+2016-01-10 16:54:36		  ruby
+2016-01-10 16:54:36		[perl]
+2016-01-10 16:54:36		  perl
+2016-01-10 16:54:36		[script]
+2016-01-10 16:54:36		  script
+2016-01-10 16:54:36		[alias]
+2016-01-10 16:54:36		  AAWAY    CL       MSGBUF   UMODE  
+2016-01-10 16:54:36		  alias    CLOSE    MUB      V      
+2016-01-10 16:54:36		  AME      EXIT     N        W      
+2016-01-10 16:54:36		  AMSG     IG       Q        WC     
+2016-01-10 16:54:36		  ANICK    J        REDRAW   WI     
+2016-01-10 16:54:36		  BEEP     K        SAY      WII    
+2016-01-10 16:54:36		  BYE      KB       SIGNOFF  WW     
+2016-01-10 16:54:36		  C        LEAVE    T      
+2016-01-10 16:54:36		  CHAT     M        UB     
+2016-01-10 16:54:36		[fifo]
+2016-01-10 16:54:36		  fifo
+2016-01-10 16:56:36		irc: server freenode added
+2016-01-10 16:57:01		Option changed: irc.server.freenode.nicks = "_inc,_inc_,inc"  (default if null: "inc,inc1,inc2,inc3,inc4")
+2016-01-10 16:58:04		Option changed: irc.server.freenode.sasl_username = "_inc"  (default if null: "")
+2016-01-10 16:58:48		Option changed: irc.server.freenode.sasl_password = "torrg4o7"  (default if null: "")
+2016-01-10 16:59:09		Option changed: irc.server.freenode.ssl = on  (default if null: off)
+2016-01-10 16:59:26		Option changed: irc.server.freenode.autoconnect = on  (default if null: off)
+2016-01-10 16:59:27		fifo: pipe closed
+2016-01-10 16:59:28		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-01-10 17:00:36		fifo: pipe closed
+2016-01-10 17:00:38		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-01-10 17:05:52	=!=	irc: invalid priorities string, error at this position in string: "+VERS1.0:+VERS-SSL3.0:%COMPAT"
+2016-01-10 17:05:52	=!=	Error: failed to set option "irc.server.freenode.ssl_priorities"
+2016-01-10 17:07:45	=!=	irc: invalid priorities string, error at this position in string: "+VERSTLS1.0:+VERS-SSL3.0:%COMPAT"
+2016-01-10 17:07:45	=!=	Error: failed to set option "irc.server.freenode.ssl_priorities"
+2016-01-10 17:09:00		Option changed: irc.server.freenode.ssl = off  (default if null: off)
+2016-01-10 17:14:37		fifo: pipe closed
